@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Regilio Spee">
+    <title>MA-Designs | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">MA</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="onzedesigns.html">Onze designs</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <a href="counter.php"><section id="showcase">
+      <div class="container">
+      </div>
+    </section>
+  </a>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5</h3>
+          <p>We werken ook met HTML5</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS</h3>
+          <p>We werken ook met CSS</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>We werken met graphic designs met programma's zoals Adobe Photoshop</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <iframe id="iframe" src="counter.txt" width="50px" height="50px"></iframe>
+    <script>
+        window.setInterval(function() {
+            reloadIFrame()
+        }, 3000);
+
+        function reloadIFrame() {
+            console.log('reloading..');
+            document.getElementById('iframe').contentWindow.location.reload();
+        }
+    </script>
+      <p>MA Web Design, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>
